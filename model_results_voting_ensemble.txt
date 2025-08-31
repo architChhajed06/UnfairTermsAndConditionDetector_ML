@@ -1,0 +1,525 @@
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0     0.9681    0.9577    0.9628      1677
+           1     0.6830    0.7427    0.7116       206
+
+    accuracy                         0.9341      1883
+   macro avg     0.8255    0.8502    0.8372      1883
+weighted avg     0.9369    0.9341    0.9353      1883
+
+Confusion matrix:
+[[1606   71]
+ [  53  153]]
+Precision-Recall AUC: 0.7615
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+           0     0.9673    0.9708    0.9690      1677
+           1     0.7550    0.7330    0.7438       206
+
+    accuracy                         0.9448      1883
+   macro avg     0.8612    0.8519    0.8564      1883
+weighted avg     0.9441    0.9448    0.9444      1883
+
+Confusion matrix:
+[[1628   49]
+ [  55  151]]
+Precision-Recall AUC: 0.8032
+
+=== SVM (Calibrated LinearSVC) ===
+              precision    recall  f1-score   support
+
+           0     0.9639    0.9863    0.9749      1677
+           1     0.8623    0.6990    0.7721       206
+
+    accuracy                         0.9549      1883
+   macro avg     0.9131    0.8427    0.8735      1883
+weighted avg     0.9528    0.9549    0.9528      1883
+
+Confusion matrix:
+[[1654   23]
+ [  62  144]]
+Precision-Recall AUC: 0.8297
+
+=== Voting Ensemble (XGB+LGBM+SVM) ===
+              precision    recall  f1-score   support
+
+           0     0.9680    0.9726    0.9703      1677
+           1     0.7677    0.7379    0.7525       206
+
+    accuracy                         0.9469      1883
+   macro avg     0.8678    0.8552    0.8614      1883
+weighted avg     0.9460    0.9469    0.9464      1883
+
+Confusion matrix:
+[[1631   46]
+ [  54  152]]
+Precision-Recall AUC: 0.8183
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0     0.9681    0.9577    0.9628      1677
+           1     0.6830    0.7427    0.7116       206
+
+    accuracy                         0.9341      1883
+   macro avg     0.8255    0.8502    0.8372      1883
+weighted avg     0.9369    0.9341    0.9353      1883
+
+Confusion matrix:
+[[1606   71]
+ [  53  153]]
+Precision-Recall AUC: 0.7615
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+           0     0.9673    0.9708    0.9690      1677
+           1     0.7550    0.7330    0.7438       206
+
+    accuracy                         0.9448      1883
+   macro avg     0.8612    0.8519    0.8564      1883
+weighted avg     0.9441    0.9448    0.9444      1883
+
+Confusion matrix:
+[[1628   49]
+ [  55  151]]
+Precision-Recall AUC: 0.8032
+
+=== SVM (Calibrated LinearSVC) ===
+              precision    recall  f1-score   support
+
+           0     0.9639    0.9863    0.9749      1677
+           1     0.8623    0.6990    0.7721       206
+
+    accuracy                         0.9549      1883
+   macro avg     0.9131    0.8427    0.8735      1883
+weighted avg     0.9528    0.9549    0.9528      1883
+
+Confusion matrix:
+[[1654   23]
+ [  62  144]]
+Precision-Recall AUC: 0.8297
+
+=== Voting Ensemble (XGB+LGBM+SVM) ===
+              precision    recall  f1-score   support
+
+           0     0.9680    0.9726    0.9703      1677
+           1     0.7677    0.7379    0.7525       206
+
+    accuracy                         0.9469      1883
+   macro avg     0.8678    0.8552    0.8614      1883
+weighted avg     0.9460    0.9469    0.9464      1883
+
+Confusion matrix:
+[[1631   46]
+ [  54  152]]
+Precision-Recall AUC: 0.8183
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0     0.9681    0.9577    0.9628      1677
+           1     0.6830    0.7427    0.7116       206
+
+    accuracy                         0.9341      1883
+   macro avg     0.8255    0.8502    0.8372      1883
+weighted avg     0.9369    0.9341    0.9353      1883
+
+Confusion matrix:
+[[1606   71]
+ [  53  153]]
+Precision-Recall AUC: 0.7615
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+           0     0.9673    0.9708    0.9690      1677
+           1     0.7550    0.7330    0.7438       206
+
+    accuracy                         0.9448      1883
+   macro avg     0.8612    0.8519    0.8564      1883
+weighted avg     0.9441    0.9448    0.9444      1883
+
+Confusion matrix:
+[[1628   49]
+ [  55  151]]
+Precision-Recall AUC: 0.8032
+
+=== SVM (Calibrated LinearSVC) ===
+              precision    recall  f1-score   support
+
+           0     0.9639    0.9863    0.9749      1677
+           1     0.8623    0.6990    0.7721       206
+
+    accuracy                         0.9549      1883
+   macro avg     0.9131    0.8427    0.8735      1883
+weighted avg     0.9528    0.9549    0.9528      1883
+
+Confusion matrix:
+[[1654   23]
+ [  62  144]]
+Precision-Recall AUC: 0.8297
+
+=== Voting Ensemble (XGB+LGBM+SVM) ===
+              precision    recall  f1-score   support
+
+           0     0.9680    0.9726    0.9703      1677
+           1     0.7677    0.7379    0.7525       206
+
+    accuracy                         0.9469      1883
+   macro avg     0.8678    0.8552    0.8614      1883
+weighted avg     0.9460    0.9469    0.9464      1883
+
+Confusion matrix:
+[[1631   46]
+ [  54  152]]
+Precision-Recall AUC: 0.8183
+
+=== Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9397    0.9964    0.9672      1688
+           1     0.9355    0.4462    0.6042       195
+
+    accuracy                         0.9395      1883
+   macro avg     0.9376    0.7213    0.7857      1883
+weighted avg     0.9392    0.9395    0.9296      1883
+
+Confusion matrix:
+[[1682    6]
+ [ 108   87]]
+Precision-Recall AUC: 0.8118
+
+=== Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9312    0.9952    0.9621      1672
+           1     0.9167    0.4171    0.5733       211
+
+    accuracy                         0.9304      1883
+   macro avg     0.9239    0.7061    0.7677      1883
+weighted avg     0.9295    0.9304    0.9186      1883
+
+Confusion matrix:
+[[1664    8]
+ [ 123   88]]
+Precision-Recall AUC: 0.8013
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0     0.9681    0.9577    0.9628      1677
+           1     0.6830    0.7427    0.7116       206
+
+    accuracy                         0.9341      1883
+   macro avg     0.8255    0.8502    0.8372      1883
+weighted avg     0.9369    0.9341    0.9353      1883
+
+Confusion matrix:
+[[1606   71]
+ [  53  153]]
+Precision-Recall AUC: 0.7615
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+           0     0.9673    0.9708    0.9690      1677
+           1     0.7550    0.7330    0.7438       206
+
+    accuracy                         0.9448      1883
+   macro avg     0.8612    0.8519    0.8564      1883
+weighted avg     0.9441    0.9448    0.9444      1883
+
+Confusion matrix:
+[[1628   49]
+ [  55  151]]
+Precision-Recall AUC: 0.8032
+
+=== SVM (Calibrated LinearSVC) ===
+              precision    recall  f1-score   support
+
+           0     0.9639    0.9863    0.9749      1677
+           1     0.8623    0.6990    0.7721       206
+
+    accuracy                         0.9549      1883
+   macro avg     0.9131    0.8427    0.8735      1883
+weighted avg     0.9528    0.9549    0.9528      1883
+
+Confusion matrix:
+[[1654   23]
+ [  62  144]]
+Precision-Recall AUC: 0.8297
+
+=== Voting Ensemble (XGB+LGBM+SVM) ===
+              precision    recall  f1-score   support
+
+           0     0.9680    0.9726    0.9703      1677
+           1     0.7677    0.7379    0.7525       206
+
+    accuracy                         0.9469      1883
+   macro avg     0.8678    0.8552    0.8614      1883
+weighted avg     0.9460    0.9469    0.9464      1883
+
+Confusion matrix:
+[[1631   46]
+ [  54  152]]
+Precision-Recall AUC: 0.8183
+
+=== Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9354    0.9970    0.9652      1685
+           1     0.9425    0.4141    0.5754       198
+
+    accuracy                         0.9357      1883
+   macro avg     0.9390    0.7056    0.7703      1883
+weighted avg     0.9362    0.9357    0.9243      1883
+
+Confusion matrix:
+[[1680    5]
+ [ 116   82]]
+Precision-Recall AUC: 0.7537
+
+=== Balanced_Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9767    0.9193    0.9471      1685
+           1     0.5421    0.8131    0.6505       198
+
+    accuracy                         0.9081      1883
+   macro avg     0.7594    0.8662    0.7988      1883
+weighted avg     0.9310    0.9081    0.9159      1883
+
+Confusion matrix:
+[[1549  136]
+ [  37  161]]
+Precision-Recall AUC: 0.7674
+
+=== Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9293    0.9958    0.9614      1664
+           1     0.9300    0.4247    0.5831       219
+
+    accuracy                         0.9294      1883
+   macro avg     0.9297    0.7102    0.7722      1883
+weighted avg     0.9294    0.9294    0.9174      1883
+
+Confusion matrix:
+[[1657    7]
+ [ 126   93]]
+Precision-Recall AUC: 0.8271
+
+=== SMOTE ===
+              precision    recall  f1-score   support
+
+           0     0.9777    0.9483    0.9628      1664
+           1     0.6803    0.8356    0.7500       219
+
+    accuracy                         0.9352      1883
+   macro avg     0.8290    0.8920    0.8564      1883
+weighted avg     0.9431    0.9352    0.9380      1883
+
+Confusion matrix:
+[[1578   86]
+ [  36  183]]
+Precision-Recall AUC: 0.8297
+
+=== Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9293    0.9958    0.9614      1664
+           1     0.9300    0.4247    0.5831       219
+
+    accuracy                         0.9294      1883
+   macro avg     0.9297    0.7102    0.7722      1883
+weighted avg     0.9294    0.9294    0.9174      1883
+
+Confusion matrix:
+[[1657    7]
+ [ 126   93]]
+Precision-Recall AUC: 0.8271
+
+=== Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9317    0.9958    0.9627      1684
+           1     0.9157    0.3819    0.5390       199
+
+    accuracy                         0.9310      1883
+   macro avg     0.9237    0.6889    0.7508      1883
+weighted avg     0.9300    0.9310    0.9179      1883
+
+Confusion matrix:
+[[1677    7]
+ [ 123   76]]
+Precision-Recall AUC: 0.7671
+
+=== Balanced_Logistic_Regression ===
+              precision    recall  f1-score   support
+
+           0     0.9780    0.9240    0.9502      1684
+           1     0.5616    0.8241    0.6680       199
+
+    accuracy                         0.9134      1883
+   macro avg     0.7698    0.8741    0.8091      1883
+weighted avg     0.9340    0.9134    0.9204      1883
+
+Confusion matrix:
+[[1556  128]
+ [  35  164]]
+Precision-Recall AUC: 0.7773
+
+=== SMOTE ===
+              precision    recall  f1-score   support
+
+           0     0.9725    0.9466    0.9594      1684
+           1     0.6311    0.7739    0.6953       199
+
+    accuracy                         0.9283      1883
+   macro avg     0.8018    0.8602    0.8273      1883
+weighted avg     0.9365    0.9283    0.9315      1883
+
+Confusion matrix:
+[[1594   90]
+ [  45  154]]
+Precision-Recall AUC: 0.7790
+
+=== Logistic_Regression_With_N_grams ===
+              precision    recall  f1-score   support
+
+           0     0.9207    0.9982    0.9579      1652
+           1     0.9674    0.3853    0.5511       231
+
+    accuracy                         0.9230      1883
+   macro avg     0.9441    0.6917    0.7545      1883
+weighted avg     0.9264    0.9230    0.9080      1883
+
+Confusion matrix:
+[[1649    3]
+ [ 142   89]]
+Precision-Recall AUC: 0.8423
+
+=== Balanced_Logistic_Regression_With_N_grams ===
+              precision    recall  f1-score   support
+
+           0     0.9781    0.9479    0.9628      1652
+           1     0.6950    0.8485    0.7641       231
+
+    accuracy                         0.9357      1883
+   macro avg     0.8366    0.8982    0.8635      1883
+weighted avg     0.9434    0.9357    0.9384      1883
+
+Confusion matrix:
+[[1566   86]
+ [  35  196]]
+Precision-Recall AUC: 0.8497
+
+=== SMOTE_With_N_grams ===
+              precision    recall  f1-score   support
+
+           0     0.9743    0.9631    0.9686      1652
+           1     0.7560    0.8182    0.7859       231
+
+    accuracy                         0.9453      1883
+   macro avg     0.8651    0.8906    0.8773      1883
+weighted avg     0.9475    0.9453    0.9462      1883
+
+Confusion matrix:
+[[1591   61]
+ [  42  189]]
+Precision-Recall AUC: 0.8517
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0     0.9681    0.9577    0.9628      1677
+           1     0.6830    0.7427    0.7116       206
+
+    accuracy                         0.9341      1883
+   macro avg     0.8255    0.8502    0.8372      1883
+weighted avg     0.9369    0.9341    0.9353      1883
+
+Confusion matrix:
+[[1606   71]
+ [  53  153]]
+Precision-Recall AUC: 0.7615
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+           0     0.9673    0.9708    0.9690      1677
+           1     0.7550    0.7330    0.7438       206
+
+    accuracy                         0.9448      1883
+   macro avg     0.8612    0.8519    0.8564      1883
+weighted avg     0.9441    0.9448    0.9444      1883
+
+Confusion matrix:
+[[1628   49]
+ [  55  151]]
+Precision-Recall AUC: 0.8032
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0     0.9681    0.9577    0.9628      1677
+           1     0.6830    0.7427    0.7116       206
+
+    accuracy                         0.9341      1883
+   macro avg     0.8255    0.8502    0.8372      1883
+weighted avg     0.9369    0.9341    0.9353      1883
+
+Confusion matrix:
+[[1606   71]
+ [  53  153]]
+Precision-Recall AUC: 0.7615
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+           0     0.9673    0.9708    0.9690      1677
+           1     0.7550    0.7330    0.7438       206
+
+    accuracy                         0.9448      1883
+   macro avg     0.8612    0.8519    0.8564      1883
+weighted avg     0.9441    0.9448    0.9444      1883
+
+Confusion matrix:
+[[1628   49]
+ [  55  151]]
+Precision-Recall AUC: 0.8032
+
+=== SVM (Calibrated LinearSVC) ===
+              precision    recall  f1-score   support
+
+           0     0.9639    0.9863    0.9749      1677
+           1     0.8623    0.6990    0.7721       206
+
+    accuracy                         0.9549      1883
+   macro avg     0.9131    0.8427    0.8735      1883
+weighted avg     0.9528    0.9549    0.9528      1883
+
+Confusion matrix:
+[[1654   23]
+ [  62  144]]
+Precision-Recall AUC: 0.8297
+
+=== Voting Ensemble (XGB+LGBM+SVM) ===
+              precision    recall  f1-score   support
+
+           0     0.9680    0.9726    0.9703      1677
+           1     0.7677    0.7379    0.7525       206
+
+    accuracy                         0.9469      1883
+   macro avg     0.8678    0.8552    0.8614      1883
+weighted avg     0.9460    0.9469    0.9464      1883
+
+Confusion matrix:
+[[1631   46]
+ [  54  152]]
+Precision-Recall AUC: 0.8183

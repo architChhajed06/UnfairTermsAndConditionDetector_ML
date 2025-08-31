@@ -1,0 +1,20 @@
+Model,Accuracy,Precision,Recall,F1
+Logistic_Regression,0.931,0.916,0.382,0.539
+Balanced_Logistic_Regression,0.913,0.562,0.824,0.668
+SMOTE,0.928,0.631,0.774,0.695
+Logistic_Regression_With_N_grams,0.923,0.967,0.385,0.551
+Balanced_Logistic_Regression_With_N_grams,0.936,0.695,0.848,0.764
+SMOTE_With_N_grams,0.945,0.756,0.818,0.786
+XGBoost,0.934,0.683,0.743,0.712
+LightGBM,0.945,0.755,0.733,0.744
+SVM (Calibrated LinearSVC),0.955,0.862,0.699,0.772
+Voting Ensemble (XGB+LGBM+SVM),0.947,0.768,0.738,0.753
+C8 Ensemble (Calibrated LinearSVC + LR + RF),0.953,0.886,0.865,0.875
+C1 LinearSVC,0.950,0.874,0.863,0.868
+C2 RBF SVC,0.952,0.926,0.811,0.865
+PassiveAggressive,0.947,0.877,0.838,0.857
+LogisticRegression,0.937,0.827,0.875,0.850
+GradientBoosting,0.933,0.906,0.719,0.802
+ComplementNB,0.924,0.826,0.742,0.782
+MultinomialNB,0.929,0.903,0.700,0.789
+RandomForest,0.929,0.912,0.698,0.791

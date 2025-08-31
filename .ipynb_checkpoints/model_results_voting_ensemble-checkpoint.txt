@@ -1,0 +1,60 @@
+
+=== XGBoost ===
+              precision    recall  f1-score   support
+
+           0     0.9681    0.9577    0.9628      1677
+           1     0.6830    0.7427    0.7116       206
+
+    accuracy                         0.9341      1883
+   macro avg     0.8255    0.8502    0.8372      1883
+weighted avg     0.9369    0.9341    0.9353      1883
+
+Confusion matrix:
+[[1606   71]
+ [  53  153]]
+Precision-Recall AUC: 0.7615
+
+=== LightGBM ===
+              precision    recall  f1-score   support
+
+           0     0.9673    0.9708    0.9690      1677
+           1     0.7550    0.7330    0.7438       206
+
+    accuracy                         0.9448      1883
+   macro avg     0.8612    0.8519    0.8564      1883
+weighted avg     0.9441    0.9448    0.9444      1883
+
+Confusion matrix:
+[[1628   49]
+ [  55  151]]
+Precision-Recall AUC: 0.8032
+
+=== SVM (Calibrated LinearSVC) ===
+              precision    recall  f1-score   support
+
+           0     0.9639    0.9863    0.9749      1677
+           1     0.8623    0.6990    0.7721       206
+
+    accuracy                         0.9549      1883
+   macro avg     0.9131    0.8427    0.8735      1883
+weighted avg     0.9528    0.9549    0.9528      1883
+
+Confusion matrix:
+[[1654   23]
+ [  62  144]]
+Precision-Recall AUC: 0.8297
+
+=== Voting Ensemble (XGB+LGBM+SVM) ===
+              precision    recall  f1-score   support
+
+           0     0.9680    0.9726    0.9703      1677
+           1     0.7677    0.7379    0.7525       206
+
+    accuracy                         0.9469      1883
+   macro avg     0.8678    0.8552    0.8614      1883
+weighted avg     0.9460    0.9469    0.9464      1883
+
+Confusion matrix:
+[[1631   46]
+ [  54  152]]
+Precision-Recall AUC: 0.8183
